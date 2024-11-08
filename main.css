@@ -150,3 +150,57 @@ ul.header-nav {
   left: 0;
   color: white;
 }
+
+
+.place-card {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  max-width: 266px;
+}
+
+.place-card>img {
+  border-radius: 1rem;
+  width: 266px;
+  height: 200px;
+}
+
+.place-card>.ratings {
+  font-size: .82em;
+  display: flex;
+  gap: .4rem;
+  align-items: center;
+}
+
+.place-card>.ratings>.rating {
+  background-color: #227950;
+  color: white;
+  border-radius: 5px;
+  padding: 4px 8px;
+  font-weight: bold;
+}
+
+.place-card>.ratings>.ratings-label {
+  font-weight: bold;
+}
+
+.place-card>.ratings>.ratings-count {
+  font-size: .9em;
+}
+
+.place-card>.description {
+  font-weight: bold;
+}
+
+.place-card>.location {
+  font-size: .9em;
+}
+
+.place-card>.price>.amount {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+.place-card>.price>.terms {
+  font-size: .85em;
+}

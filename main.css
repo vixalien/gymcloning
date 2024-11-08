@@ -96,7 +96,7 @@ ul.header-nav {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  padding-block: 1rem;
+  padding-block: 1.5rem;
 }
 
 .section-heading h3 {
@@ -242,4 +242,29 @@ ul.header-nav {
 
 .cover-card>.title {
   font-weight: bold;
+}
+
+.info-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.info-card>h4 {
+  margin: 0;
+}
+
+.info-card>img {
+  width: 40px;
+  height: 40px;
+}
+
+.spacer {
+  margin-top: 60px;
 }

@@ -303,3 +303,42 @@ button {
 .cta-section>.floating>button {
   align-self: flex-start;
 }
+
+.collapsibles {
+  padding: 1rem;
+}
+
+.collapsibles>details>summary {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.collapsibles>details>summary>h4 {
+  font-size: 1.3rem;
+  margin: 0;
+  position: relative;
+}
+
+.collapsibles>details>summary>h4::after {
+  position: absolute;
+  right: 0;
+  content: '⏷';
+}
+
+.collapsibles>details[open]>summary>h4::after {
+  content: '⏶';
+}
+
+.collapsibles>details>ul {
+  display: grid;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2px 1rem;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #dfe0e4;
+}

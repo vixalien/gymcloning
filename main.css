@@ -217,3 +217,29 @@ ul.header-nav {
 .place-card>.price>.terms {
   font-size: .85em;
 }
+
+.cover-cards {
+  display: flex;
+  gap: 1rem;
+}
+
+.cover-card {
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+  flex: 1;
+}
+
+.cover-card>img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.cover-card>.subtitle {
+  font-weight: bold;
+  font-size: .8rem;
+}
+
+.cover-card>.title {
+  font-weight: bold;
+}

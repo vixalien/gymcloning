@@ -59,3 +59,32 @@ ul.header-nav {
   font-size: 4rem;
   margin: 0;
 }
+
+.reservations-form {
+  background-color: #f7f7f8;
+  border-radius: 1em;
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.reservations-form>div {
+  flex: 1;
+}
+
+.reservations-form input {
+  border: 1px solid;
+  border-radius: 8px;
+  padding: .8rem;
+  border-color: #818494;
+  width: 100%;
+}
+
+.reservations-form button {
+  background-color: black;
+  color: white;
+  border: 0;
+  border-radius: 9999px;
+  padding: .8rem 1.2rem;
+  font-weight: bold;
+}

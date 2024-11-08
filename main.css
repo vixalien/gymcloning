@@ -114,8 +114,6 @@ ul.header-nav {
 }
 
 .card {
-  height: 158px;
-  width: 266px;
   border-radius: 1rem;
   border: 1px solid #dfe0e4;
   display: flex;
@@ -125,6 +123,8 @@ ul.header-nav {
 
 .card>img {
   flex: 1;
+  max-height: 120px;
+  object-fit: cover;
 }
 
 .card>span.subtitle {
@@ -148,4 +148,5 @@ ul.header-nav {
   margin: .8rem .6rem;
   bottom: 0;
   left: 0;
+  color: white;
 }

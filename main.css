@@ -91,6 +91,7 @@ button {
   padding: .8rem 1.2rem;
   font-weight: bold;
   background-color: #191e3b;
+  cursor: pointer;
 }
 
 .section {

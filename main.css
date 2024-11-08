@@ -123,11 +123,29 @@ ul.header-nav {
   overflow: hidden;
 }
 
-.card > img {
+.card>img {
   flex: 1;
 }
 
-.card > span.subtitle {
+.card>span.subtitle {
   padding: .8rem .6rem;
   font-weight: bold;
+}
+
+.poster-card {
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.poster-card>img {
+  width: 219px;
+  height: 292px;
+}
+
+.poster-card>span.subtitle {
+  position: absolute;
+  margin: .8rem .6rem;
+  bottom: 0;
+  left: 0;
 }

@@ -352,6 +352,7 @@ footer {
   padding: 3rem 1rem;
   border-radius: 1rem;
   margin: .5rem;
+  font-size: .8rem;
 }
 
 .footer-box {
@@ -366,7 +367,7 @@ footer {
 
 footer .footer-copyright {
   font-size: .8rem;
-  text-align: center;
+  align-self: center;
 }
 
 .footer-grid {
@@ -380,4 +381,14 @@ footer .footer-copyright {
   display: flex;
   flex-direction: column;
   gap: .5rem;
+}
+
+a {
+  color: #1668e3;
+  text-decoration: none;
+
+  &:hover,
+  &:active {
+    text-decoration: underline;
+  }
 }
